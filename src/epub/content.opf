@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/zeami-motokiyo/plays/various-translators</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-03-16T00:40:20Z</dc:date>
+		<meta property="dcterms:modified">2026-03-16T00:40:20Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,9 +39,9 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, his exact output has become unsure; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father as both actors and playwrights that established the basis for its long-running current form.&lt;/p&gt;
-			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (&lt;i lang="ja-Latn"&gt;Atsumori&lt;/i&gt;), reinterpretation of classic fiction (&lt;i lang="ja-Latn"&gt;Suma Genji&lt;/i&gt;), horror (&lt;i lang="ja-Latn"&gt;Yamanba&lt;/i&gt;) or long-lasting love (&lt;i lang="ja-Latn"&gt;Takasago&lt;/i&gt;). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
-			&lt;p&gt;Contained in this collection are the English translations of plays currently directly attributed to Zeami in the &lt;abbr&gt;U.S.&lt;/abbr&gt; public domain, arranged in chronological order of translation.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, the exact makeup of output has become uncertain; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father—both actors and playwrights—who established the basis for its long-running current form.&lt;/p&gt;
+			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (“Atsumori”), reinterpretation of classic fiction (“Suma Genji”), horror (“Yamanba”) or long-lasting love (“Takasago”). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
+			&lt;p&gt;Contained in this collection are the English translations of plays currently directly attributed to Zeami, and that are in the U.S. public domain, arranged in chronological order of translation.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Takasago -->
@@ -61,8 +61,8 @@
 		<meta property="se:production-notes">
 			• The introduction to Takasago was not transcribed due to its seven-page length.
 		</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">13362</meta>
+		<meta property="se:reading-ease.flesch">72.46</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/zeami-motokiyo_plays_various-translators</meta>
 		<dc:creator id="author">Zeami Motokiyo</dc:creator>
 		<meta property="file-as" refines="#author">Zeami, Motokiyo</meta>
@@ -141,6 +141,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wfw</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
