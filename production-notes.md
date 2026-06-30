@@ -1,0 +1,1 @@
+- The introduction to Takasago was not transcribed due to its seven-page length.

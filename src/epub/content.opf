@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/zeami-motokiyo/plays/various-translators</dc:identifier>
 		<dc:date>2026-03-16T00:40:20Z</dc:date>
 		<meta property="dcterms:modified">2026-03-16T00:40:20Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,8 +36,8 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85134557</meta>
 		<meta property="term" refines="#subject-2">sh85092129</meta>
-		<meta property="se:subject">Drama</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Drama</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, the exact makeup of output has become uncertain; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father—both actors and playwrights—who established the basis for its long-running current form.&lt;/p&gt;
@@ -58,57 +59,56 @@
 		<!-- Atsumori -->
 		<dc:source>https://www.gutenberg.org/ebooks/43304</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.99967</dc:source>
-		<meta property="se:production-notes">
-			• The introduction to Takasago was not transcribed due to its seven-page length.
-		</meta>
-		<meta property="se:word-count">13362</meta>
-		<meta property="se:reading-ease.flesch">72.46</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/zeami-motokiyo_plays_various-translators</meta>
+		<meta property="schema:wordCount">13362</meta>
+		<meta property="schema:educationalLevel">72.46</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/zeami-motokiyo_plays_various-translators" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Zeami Motokiyo</dc:creator>
 		<meta property="file-as" refines="#author">Zeami, Motokiyo</meta>
 		<meta property="alternate-script" refines="#author" xml:lang="ja">世阿弥 元清</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Zeami_Motokiyo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50009758</meta>
+		<link href="https://en.wikipedia.org/wiki/Zeami_Motokiyo" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50009758.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Frederick Victor Dickins</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Dickins, Frederick Victor</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Frederick_Dickins</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n86809984</meta>
+		<link href="https://en.wikipedia.org/wiki/Frederick_Dickins" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86809984.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">George Sansom</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Sansom, George</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">Sir George Bailey Sansom</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/George_Sansom</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n50041640</meta>
+		<meta property="schema:alternateName" refines="#translator-2">Sir George Bailey Sansom</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Sansom" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50041640.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Ernest Fenollosa</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Fenollosa, Ernest</meta>
-		<meta property="se:name.person.full-name" refines="#translator-3">Ernest Francisco Fenollosa</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">https://en.wikipedia.org/wiki/Ernest_Fenollosa</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n50001186</meta>
+		<meta property="schema:alternateName" refines="#translator-3">Ernest Francisco Fenollosa</meta>
+		<link href="https://en.wikipedia.org/wiki/Ernest_Fenollosa" refines="#translator-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50001186.html" refines="#translator-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">Yone Noguchi</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Noguchi, Yone</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">Noguchi Yonejirō</meta>
+		<meta property="schema:alternateName" refines="#translator-4">Noguchi Yonejirō</meta>
 		<meta property="alternate-script" refines="#author" xml:lang="ja">野口 米次郎</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/Yone_Noguchi</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/n81110437</meta>
+		<link href="https://en.wikipedia.org/wiki/Yone_Noguchi" refines="#translator-4" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81110437.html" refines="#translator-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-5">Arthur Waley</dc:contributor>
 		<meta property="file-as" refines="#translator-5">Waley, Arthur</meta>
-		<meta property="se:name.person.full-name" refines="#translator-5">Arthur David Waley</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">https://en.wikipedia.org/wiki/Arthur_Waley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-5">http://id.loc.gov/authorities/names/n79054650</meta>
+		<meta property="schema:alternateName" refines="#translator-5">Arthur David Waley</meta>
+		<link href="https://en.wikipedia.org/wiki/Arthur_Waley" refines="#translator-5" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79054650.html" refines="#translator-5" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
 		<meta property="file-as" refines="#artist">van Gogh, Vincent</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Vincent Willem van Gogh</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Vincent_van_Gogh</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79022935</meta>
+		<meta property="schema:alternateName" refines="#artist">Vincent Willem van Gogh</meta>
+		<link href="https://en.wikipedia.org/wiki/Vincent_van_Gogh" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79022935.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Starner</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Starner, David</meta>
@@ -124,15 +124,15 @@
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="markup-editor">David Widger</dc:contributor>
 		<meta property="file-as" refines="markup-editor">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="markup-editor">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="markup-editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#markup-editor" scheme="marc:relators">mrk</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -143,7 +143,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
