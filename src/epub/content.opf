@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/zeami-motokiyo/plays/various-translators</dc:identifier>
 		<dc:date>2026-03-16T00:40:20Z</dc:date>
@@ -38,12 +38,12 @@
 		<meta property="term" refines="#subject-2">sh85092129</meta>
 		<meta property="schema:genre">Drama</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, the exact makeup of output has become uncertain; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father—both actors and playwrights—who established the basis for its long-running current form.&lt;/p&gt;
 			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (“Atsumori”), reinterpretation of classic fiction (“Suma Genji”), horror (“Yamanba”) or long-lasting love (“Takasago”). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
 			&lt;p&gt;Contained in this collection are the English translations of plays currently directly attributed to Zeami, and that are in the U.S. public domain, arranged in chronological order of translation.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Takasago -->
 		<dc:source>https://archive.org/details/primitivemediaev00dickuoft</dc:source>
