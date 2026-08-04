@@ -38,7 +38,7 @@
 		<meta property="term" refines="#subject-2">sh85092129</meta>
 		<meta property="schema:genre">Drama</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:abstract>
+		<meta property="schema:abstract">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, the exact makeup of output has become uncertain; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father—both actors and playwrights—who established the basis for its long-running current form.&lt;/p&gt;
 			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (“Atsumori”), reinterpretation of classic fiction (“Suma Genji”), horror (“Yamanba”) or long-lasting love (“Takasago”). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
