@@ -66,7 +66,7 @@
 		<link href="https://github.com/standardebooks/zeami-motokiyo_plays_various-translators" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Zeami Motokiyo</dc:creator>
 		<meta property="file-as" refines="#author">Zeami, Motokiyo</meta>
-		<meta property="alternate-script" refines="#author" xml:lang="ja">世阿弥 元清</meta>
+		<meta property="alternate-script" refines="#author">世阿弥 元清</meta>
 		<link href="https://en.wikipedia.org/wiki/Zeami_Motokiyo" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50009758.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -93,7 +93,7 @@
 		<dc:contributor id="translator-4">Yone Noguchi</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Noguchi, Yone</meta>
 		<meta property="schema:alternateName" refines="#translator-4">Noguchi Yonejirō</meta>
-		<meta property="alternate-script" refines="#author" xml:lang="ja">野口 米次郎</meta>
+		<meta property="alternate-script" refines="#author">野口 米次郎</meta>
 		<link href="https://en.wikipedia.org/wiki/Yone_Noguchi" refines="#translator-4" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81110437.html" refines="#translator-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
