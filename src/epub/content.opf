@@ -115,9 +115,10 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Marlo Dianne</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Dianne, Marlo</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Charles Franks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Henry Flower</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Flower, Henry</meta>
