@@ -78,7 +78,7 @@
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">George Sansom</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Sansom, George</meta>
-		<meta property="schema:alternateName" refines="#translator-2">Sir George Bailey Sansom</meta>
+		<meta property="schema:alternateName" refines="#translator-2">George Bailey Sansom</meta>
 		<link href="https://en.wikipedia.org/wiki/George_Sansom" refines="#translator-2" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50041640.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
@@ -93,7 +93,7 @@
 		<dc:contributor id="translator-4">Yone Noguchi</dc:contributor>
 		<meta property="file-as" refines="#translator-4">Noguchi, Yone</meta>
 		<meta property="schema:alternateName" refines="#translator-4">Noguchi Yonejirō</meta>
-		<meta property="alternate-script" refines="#author">野口 米次郎</meta>
+		<meta property="alternate-script" refines="#translator-4">野口 米次郎</meta>
 		<link href="https://en.wikipedia.org/wiki/Yone_Noguchi" refines="#translator-4" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81110437.html" refines="#translator-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
@@ -128,8 +128,9 @@
 		<link href="https://www.pgdp.net/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="markup-editor">David Widger</dc:contributor>
-		<meta property="file-as" refines="markup-editor">Widger, David</meta>
-		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="markup-editor" rel="schema:sameAs"/>
+		<meta property="file-as" refines="#markup-editor">Widger, David</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#markup-editor" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#markup-editor" rel="schema:url"/>
 		<meta property="role" refines="#markup-editor" scheme="marc:relators">mrk</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
